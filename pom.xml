@@ -19,10 +19,10 @@
 	    <groupId>io.rest-assured</groupId>
 	    <artifactId>rest-assured</artifactId>
 	    <!--<version>5.0.0</version>-->
-	    <version>5.0.1</version>
+	    <!--<version>5.0.1</version>-->
 	    <!--<version>5.1.0</version>-->		
 	    <!--<version>5.1.1</version>-->
-	    <!--<version>5.2.0</version>-->
+	    <version>5.2.0</version>
 	    <scope>test</scope>
 	</dependency>
   </dependencies>
