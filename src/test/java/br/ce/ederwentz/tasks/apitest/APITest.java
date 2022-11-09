@@ -11,10 +11,10 @@ public class APITest {
 	
 	@BeforeClass
 	public static void setup() {
-		// servidor loca
-		RestAssured.baseURI = "http://localhost:8001/tasks-backend";
-		// servidor linux	
-		//RestAssured.baseURI = "http://192.168.1.112:8001/tasks-backend";
+		// servidor local
+		//RestAssured.baseURI = "http://localhost:8001/tasks-backend";
+		// servidor externo
+		RestAssured.baseURI = "http://192.168.1.112:8001/tasks-backend";
 	}
 	
 	@Test
