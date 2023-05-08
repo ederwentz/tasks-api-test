@@ -14,7 +14,7 @@ public class APITest {
 		// servidor local
 		//RestAssured.baseURI = "http://localhost:8001/tasks-backend";
 		// servidor externo
-		RestAssured.baseURI = "http://192.168.1.112:8001/tasks-backend";
+		RestAssured.baseURI = "http://192.168.0.130:8080/tasks-backend";
 	}
 	
 	@Test
