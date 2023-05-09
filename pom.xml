@@ -38,19 +38,4 @@
 	    <scope>test</scope>
 	</dependency>
   </dependencies>
-	<build>
-		<plugins>
-			<plugin>
-  				<groupId>org.codehaus.gmaven</groupId>
-  				<artifactId>groovy-maven-plugin</artifactId>
-  					<dependencies>
-    						<dependency>
-      							<groupId>org.codehaus.groovy</groupId>
-      							<artifactId>groovy-all</artifactId>
-      							<version>3.10.1</version>
-    						</dependency>
-  					</dependencies>
-			</plugin>
-		</plugins>
-	</build>
 </project>
